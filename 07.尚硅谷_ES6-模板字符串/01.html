@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // ES6 引入新的声明字符串的方式 【``】 '' ""
+    let str1 = `我是一个字符串哦`;
+    console.log(str1, typeof str1);
+    // 2.内容中可以直接出现换行符
+    let str2 = '<ul><li>1</li>' +
+        '<li>2</li>' +
+        '</ul>';
+    let str3 = `<ul>
+<li></li>
+</ul>`;
+    // 3.变量拼接
+    let lovest = '魏翔';
+    let out = `${lovest}xxx是我心目中最喜欢的演员`;
+    console.log(out);
+</script>
+</body>
+</html>
